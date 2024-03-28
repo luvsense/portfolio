@@ -1,20 +1,21 @@
-/* .projects {
+#project-head {
   margin-top: 40px;
 }
 
-.box {
+#project-box-1,
+#project-box-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.tags {
+.langauge-tags {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-h3:hover {
+.project-name:hover {
   color: #48c78e;
-} */
+}
