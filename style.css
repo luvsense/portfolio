@@ -1,0 +1,20 @@
+.projects {
+  margin-top: 40px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tags {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+h3:hover {
+  color: #48c78e;
+}

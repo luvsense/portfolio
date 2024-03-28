@@ -12,45 +12,64 @@
   </head>
   <body>
     <section class="section">
+      <nav
+        class="tabs has-bullet-separator is-centered"
+        aria-label="breadcrumbs"
+      >
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Socials</a></li>
+          <li class="is-active">
+            <a href="#" aria-current="page">about-me</a>
+          </li>
+        </ul>
+      </nav>
       <div class="container">
         <h1 class="title">Hello World</h1>
         <p class="subtitle">
           Welcome to my <strong class="has-text-success">portfolio</strong>!
         </p>
-        <p>
-          Hi 👋 I'm <strong>Yash</strong> (meaning "success" in English), a
-          developer, writer, and minimalist based in Delhi, India.
-        </p>
-        <p>
-          I'm a final year Computer Science student with a passion for web
-          development. My recent projects include a personal blog built with
-          React and a JavaScript-based task tracker. I'm eager to explore
-          frontend engineering roles.
-        </p>
-        <div class="projects">
-          <p class="has-text-weight-light mt-6 is-size-5" id="">PROJECTS</p>
+
+        <section class="about-me">
+          <p>
+            Hi 👋 I'm <strong>Yash</strong> (meaning "success" in English), a
+            developer, writer, and minimalist based in Delhi, India.
+          </p>
+          <p>
+            I'm a final year Computer Science student with a passion for web
+            development. My recent projects include a personal blog built with
+            React and a JavaScript-based task tracker.
+          </p>
+          <p>I'm eager to explore frontend engineering roles.</p>
+        </section>
+
+        <section class="projects">
+          <h2 class="title is-4 has-text-weight-light">Projects</h2>
           <hr />
-          <div class="my-1 box">
-            <p>
+
+          <article class="project-box box">
+            <h3 class="is-size-5 is-clickable has-text-weight-light">
               Ping Pong Score Tracker
-              <span class="tag-list">
-                <span class="tag is-hoverable is-rounded">HTML</span>
-                <span class="tag is-hoverable is-rounded">CSS</span>
-                <span class="tag is-hoverable is-rounded">Javascript</span>
-              </span>
-            </p>
-          </div>
-          <div class="my-2 box">
-            <p>
+            </h3>
+            <div class="tags">
+              <span class="tag is-hoverable is-rounded">HTML</span>
+              <span class="tag is-hoverable is-rounded">CSS</span>
+              <span class="tag is-hoverable is-rounded">Javascript</span>
+            </div>
+          </article>
+
+          <article class="project-box box">
+            <h3 class="is-size-5 is-clickable has-text-weight-light">
               Pomodoro : Study Focus Timer
-              <span class="tag-list">
-                <span class="tag is-hoverable is-rounded">HTML</span>
-                <span class="tag is-hoverable is-rounded">CSS</span>
-                <span class="tag is-hoverable is-rounded">Javascript</span>
-              </span>
-            </p>
-          </div>
-        </div>
+            </h3>
+            <div class="tags">
+              <span class="tag is-hoverable is-rounded">HTML</span>
+              <span class="tag is-hoverable is-rounded">CSS</span>
+              <span class="tag is-hoverable is-rounded">Javascript</span>
+            </div>
+          </article>
+        </section>
       </div>
     </section>
   </body>
